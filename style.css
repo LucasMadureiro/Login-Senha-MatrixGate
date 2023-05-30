@@ -8,12 +8,13 @@ body {
   }
   
   .login-container {
-    max-width: 400px; /* Ajuste a largura conforme necessário */
+    max-width: 400px;
+    height: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #eef7ff;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
@@ -41,7 +42,7 @@ body {
   
   button[type="submit"] {
     padding: 10px 15px;
-    background-color: #4caf50;
+    background:linear-gradient(to right, #6a6d6d, #a9e4aa );
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -49,8 +50,12 @@ body {
   }
   
   a {
+    font-family: monospace;
+    font-size: small;
     text-align: center;
     display: block;
-    margin-top: 10px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none; 
   }
   
